@@ -74,3 +74,15 @@ class ChandrayanSpacecraft:
                 self.turn_up()
             elif command == 'd':
                 self.turn_down()
+
+# Initial Position: (0, 0, 0)
+# Initial Direction: N
+initial_position = [0, 0, 0]
+initial_direction = 'N'
+commands = ["f", "r", "u", "b", "l"]
+
+spacecraft = ChandrayanSpacecraft(initial_position, initial_direction)
+spacecraft.execute_commands(commands)
+
+print("Final Position:", tuple(spacecraft.position))
+print("Final Direction:", spacecraft.direction)
