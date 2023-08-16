@@ -59,3 +59,18 @@ class ChandrayanSpacecraft:
     def turn_down(self):
          if self.direction == 'N' or self.direction == 'S':
             self.direction = 'Down'
+    
+    def execute_commands(self, commands):
+        for command in commands:
+            if command == 'f':
+                self.move_forward()
+            elif command == 'b':
+                self.move_backward()
+            elif command == 'l':
+                self.turn_left()
+            elif command == 'r':
+                self.turn_right()
+            elif command == 'u':
+                self.turn_up()
+            elif command == 'd':
+                self.turn_down()
