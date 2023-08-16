@@ -2,6 +2,11 @@
 
 Welcome to the `chandrayaan3-TDD-incubyte` repository! This repository contains a Python program that simulates the control of the Chandrayaan 3 lunar spacecraft in the vast expanse of the galaxy.
 
+
+## Result
+
+![Screenshot (1)](https://github.com/soumyaranjan-palatasingh/chandrayaan3-TDD-incubyte/assets/134424581/f9fc9c9e-9ea0-4c65-ab70-eef9d40be795)
+
 ## Prerequisites
 
 To run this program, you need:
@@ -21,8 +26,5 @@ To use this program, follow these steps:
 
     python chandrayan.py
 
-## Result
 
-
-![Screenshot (1)](https://github.com/soumyaranjan-palatasingh/chandrayaan3-TDD-incubyte/assets/134424581/f9fc9c9e-9ea0-4c65-ab70-eef9d40be795)
 
